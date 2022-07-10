@@ -84,12 +84,34 @@
                         </ul>
                     </fieldset>
                 </div>
+                <div class="question-block">
+                    <p>3</p>
+                    <fieldset class="question" name="html-question-three">
+                        <legend>
+                            Ice cream is better than tacos OR pizza
+                        </legend>
+                        <ul class="answers-list">
+                            <li>
+                                <label for="q3-a1">
+                                    <input type="radio" id="q3-a1" name="q3" value="true" />
+                                    True
+                                </label>
+                            </li>
+                            <li>
+                                <label for="q3-a2">
+                                    <input type="radio" id="q3-a2" name="q3" value="false" />
+                                    False
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
             </section>
             <section role="region" aria-labelledby="css-questions">
                 <h2 id="css-questions">CSS</h2>
                 <div class="formrow">
                     <div class="question-block">
-                        <label for="customer">Are you a frontend developer?</label>
+                        <label for="customer">Are you learning front end development?</label>
                     </div>
                     <div class="answer">
                         <select name="customer" id="customer" required>
@@ -103,7 +125,7 @@
                     </div>
                     <div class="answer">
                         <textarea id="css-questions" name="css-questions" rows="5" cols="24"
-                            placeholder="Who is flexbox..."></textarea>
+                            placeholder="What is flexbox..."></textarea>
                     </div>
                 </div>
             </section>
